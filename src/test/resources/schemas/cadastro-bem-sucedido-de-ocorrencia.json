@@ -1,0 +1,44 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729997360.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "endereco",
+    "gravidade",
+    "vitima"
+  ],
+  "properties": {
+    "endereco": {
+      "$id": "#root/endereco",
+      "title": "Endereco",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "rua direita, 25"
+      ],
+      "pattern": "^.*$"
+    },
+    "gravidade": {
+      "$id": "#root/gravidade",
+      "title": "Gravidade",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Leve"
+      ],
+      "pattern": "^.*$"
+    },
+    "vitima": {
+      "$id": "#root/vitima",
+      "title": "Vitima",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Sim"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}
